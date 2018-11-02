@@ -7,3 +7,4 @@
   * 2.通过mongoose练习mongodb在node环境的使用，sequelize练习mysql的使用。
     * (提供用户和商品的添加删除练习)
   * 3.该项目通过babel全部用es6实现，熟悉es6中的class ，export，箭头函数。。。
+  * 4.练习nginx的反向代理配置，及免费https证书和免费域名的配置。
