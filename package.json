@@ -1,0 +1,38 @@
+{
+  "name": "koa2_demo",
+  "version": "1.0.0",
+  "description": "test for myself",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development supervisor --harmony index.js",
+    "start": "cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'node_mongoDb --port 3000'",
+    "stop": "cross-env NODE_ENV=production pm2 stop index.js --name 'node_mongoDb --port 3000'"
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "zhudm",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.6.1",
+    "koa-body": "^4.0.4",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^3.0.6",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.7",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.41.0"
+  }
+}
